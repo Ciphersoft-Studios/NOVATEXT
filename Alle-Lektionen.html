@@ -1,0 +1,475 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaText - Lektionen</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">NovaText</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="./index.html" class="list-link">Start</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./Alle-Lektionen.html" class="list-link current">Lektionen</a>
+                    </li>
+<!--
+                    <li class="list-item">
+                        <a href="#" class="list-link">Bewertungen</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Neues</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Mitgliedschaft</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Kontakt</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+-->
+                </ul>
+            </div>
+            
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+<!--
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+-->
+
+        </nav>
+
+    </header>
+
+    <!-- Search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="What are you looking for?">
+                <button class="btn form-btn icon-box" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div class="btn form-close-btn icon-box place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <section class="blog-post section-header-offset">
+        <div class="blog-post-container container">
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">ALLE ÜBERSETZUNGEN</h3>
+            </div>
+
+            <section class="older-posts section">
+  
+                <div class="older-posts-grid-wrapper d-grid">
+    
+                    <a href="./Lektion-1.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_1.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Auf dem Weg zur Kurie</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-2.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_2.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Sieg im Circus Maximus</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-3.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_3.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Aufregung in der Basilika</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-4.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_4.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Besuch in den Thermen</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-5.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_5.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Jubel auf dem Forum</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-6.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_6.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Vorbereitung eines großen Festes</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-7.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_7.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Modenschau</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-8.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_8.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Das große Fest (I)</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-9.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_9.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Das große Fest (II)</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-10.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_10.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Bücher und Besichtigung</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-11.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_11.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Ein Anfang mit Schrecken</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-12.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_12.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Einer für alle</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-13.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_13.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Das Maß ist voll</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-14.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_14.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Hannibal ante portas</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-15.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_15.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Wer besiegte Hannibal?</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-16.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_16.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Anschlag auf den Konsul Cicero</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-17.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_17.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Cäsar im Banne Kleopatras</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-18.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_18.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Aufregung im Hause des Senators</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-19.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_19.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Den Entführern auf der Spur</h3>
+                        </div>
+                    </a>
+
+                    <a href="./Lektion-20.html" class="article d-grid">
+                        <div class="older-posts-article-image-wrapper">
+                            <img src="./assets/images/older_posts/older_posts_20.jpg" alt="" class="article-image">
+                        </div>
+    
+                        <div class="article-data-container">
+    
+                            <div class="article-data">
+                                <span>Jan 1st 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>0 total words</span>
+                            </div>
+    
+                            <h3 class="title article-title">Auf hoher See</h3>
+                        </div>
+                    </a>
+    
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container d-grid">
+            
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">NovaText</h2>
+                </a>
+                <p class="company-description">Alle Bilder auf dieser Seite fallen unter die Creative-Commons-Lizenz. Diese Seite soll außerdem nicht das offizielle Lösungsheft ersetzen. Sie dient lediglich als Hilfestellung. Das offizielle Buch gibt es hier zu kaufen: 
+                <a href="https://www.thalia.de/suche?filterPATHROOT=&sq=978-3-7661-7970-8">https://www.thalia.de/suche?filterPATHROOT=&sq=978-3-7661-7970-8</a>
+                </p>
+
+                <span class="copyright-notice">&copy;2022 NovaText. All rights reserved.</span>
+            </div>
+        
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
